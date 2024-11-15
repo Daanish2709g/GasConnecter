@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Track Service Requests</title>
+</head>
+<body>
+    <h1>Service Requests</h1>
+    <table border="1">
+        <tr>
+            <th>Customer Name</th>
+            <th>Service Type</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Created At</th>
+            <th>Resolved At</th>
+        </tr>
+        {% for request in requests %}
+        <tr>
+            <td>{{ request.customer_name }}</td>
+            <td>{{ request.service_type }}</td>
+            <td>{{ request.description }}</td>
+            <td>{{ request.status }}</td>
+            <td>{{ request.created_at }}</td>
+            <td>{{ request.resolved_at }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
