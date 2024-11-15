@@ -34,6 +34,11 @@ This scalable solution prioritizes seamless communication and transparency, maki
 
 ## Application Structure
 
+
+![Gasconnecter](https://github.com/user-attachments/assets/5d56f2ab-7cfd-4ba7-b502-0043ee879c3a)
+
+
+
 ```plaintext
 GasConnecter/
 │
