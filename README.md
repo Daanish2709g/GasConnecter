@@ -1,4 +1,4 @@
-# GasConnecter 
+# GasConnecter   
 GasConnecter is a Django-based web application designed to streamline customer service operations for gas utility companies. The platform allows customers to easily submit service requests, track their status in real-time, and view their account information through a user-friendly interface.
 
 For customer support representatives, GasConnecter provides tools to efficiently manage and resolve service requests, ensuring a smoother workflow and improved customer satisfaction. With features like service request submission, attachment handling, request tracking, and admin management, the application enhances operational efficiency and reduces customer wait times.
